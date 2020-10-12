@@ -30,4 +30,3 @@ function getObject () {
 function getString () {
   return 'string'
 }
-

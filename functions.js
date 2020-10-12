@@ -16,7 +16,7 @@ function callsProperty (obj) {
 
 function filter (array, fn) {
   const filteredArray = []
-  for (let item of array) {
+  for (const item of array) {
     if (fn(item)) {
       filteredArray.push(item)
     }
@@ -25,7 +25,7 @@ function filter (array, fn) {
 }
 
 function find (array, fn) {
-  for (let item of array) {
+  for (const item of array) {
     if (fn(item)) {
       return item
     }
@@ -34,7 +34,7 @@ function find (array, fn) {
 
 function map (array, fn) {
   const newArray = []
-  for (let item in array) {
+  for (const item in array) {
     newArray.push(fn(item))
   }
   return newArray
