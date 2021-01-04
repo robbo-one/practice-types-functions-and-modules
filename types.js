@@ -16,11 +16,19 @@ function getNumber() {
   return 2
 }
 
+function getObject () {
+  return {}
+}
 
+function getString () {
+  return "hello"
+}
 
 module.exports = {
   getBoolean: getBoolean,
   getFunction: getFunction,
   getNull: getNull,
-  getNumber: getNumber
+  getNumber: getNumber,
+  getObject: getObject,
+  getString: getString
 }
