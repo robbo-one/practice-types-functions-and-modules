@@ -4,11 +4,23 @@ function getBoolean () {
 
 function getFunction () {
   return function() {
-    
+
   }
 }
 
+function getNull() {
+  return null
+}
+
+function getNumber() {
+  return 2
+}
+
+
+
 module.exports = {
   getBoolean: getBoolean,
-  getFunction: getFunction
+  getFunction: getFunction,
+  getNull: getNull,
+  getNumber: getNumber
 }
