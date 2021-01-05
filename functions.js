@@ -45,4 +45,3 @@ function map(arr, func) {
   return newArr;
 }
 
-const p = "p"
